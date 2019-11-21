@@ -1,0 +1,140 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .single-circular{-25;}
+/*Header section*/
+.header-top{
+  display: none;}
+.header-manu-text-area .header-manu-text1 h1 {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 10px 25px;}
+.header-manu-text-area .header-manu-text1 h1:last-child {
+margin: 10px 25px;}
+.header-manu-text-area .header-manu-text2 h6 {
+    padding: 15px 25px;
+    line-height: 25px;}
+.header-manu-text-area .header-manu-text3 {
+    top: 18px;}
+.header-manu-text-area .header-manu-text3 {
+    border: 5px solid #B4B6B4;
+    padding: 10px 25px;
+    top: 0px;
+    left: 0px;
+    margin: 20px;}
+    
+.single-circular{
+  position: relative;}
+    
+/*Service section*/
+.service-1 .service-1-banner-area .service-1-banner-top p {
+    padding: 0px 25px;}
+.service-1 .service-1-title h1 {
+    font-size: 25px;
+    margin-left: 0;
+    padding: 10px;}
+.service-1 .service-1-title .view-button{
+   display: inline-block;}
+.service-1 .service-1-title a {
+    margin-top: 10px;}
+.service-1-single-banner {
+    justify-content: center;}
+.service-1-single-banner-all .single-banner-color p {
+    margin-left: 0px;}
+.service-2 .service-2-title h1 {
+    font-size: 25px;
+    margin-left: 0;
+    padding: 10px;}
+.service-2 .service-2-title .view-button{
+   display: inline-block;}
+.service-3 .service-3-title h1 {
+   font-size: 25px;
+    margin-left: 0;
+    padding: 10px;}
+.service-3 .service-3-title .view-button{
+   display: inline-block;}
+.service-3 .service-3-title-text p {
+    padding: 10px 25px;}
+.service-3 .service-3-title-text a {
+    padding: 5px 50px;}
+.service-3-service-area {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 50px 25px;}
+.service-3-single-service {
+    margin-bottom: 15px;}
+.service-3-service-menu {
+    padding: 0;}
+.service-3-single-service h3 {
+    font-size: 18px;}
+.service-3-single-service p {
+    padding-top: 15px;}
+.service-3-single-service a {
+    float: none;
+    display: flow-root;}
+.question-item h1 {
+    display: none;}
+.question-item p {
+    height: 52px;
+    padding: 5px 27px;
+    line-height: 20px;
+    margin-left: 0px; }
+.q-item{
+ padding-top: 16px !important;}
+.question-single-menu-title h1 {
+    padding: 6px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;}
+.question-single-text p {
+    margin: 10px 25px;
+    color: #fff;}
+.question-single-menu-title a {
+    padding: 20px 0;
+    color:#fff;}
+    
+/* Portfolio section*/
+.portfolio .portfolio-title {
+    padding: 0;}
+.portfolio .portfolio-title h1 {
+    font-size: 25px;
+    margin-left: 0;
+    padding: 10px;}
+.portfolio .view-button{
+   display: inline-block;}
+.portfolio-main-service-img img {
+    margin: 10px 0;}
+.portfolio-main-service-title h2 {
+    margin: 45px 0;}
+.portfolio-main-service-title h2 {
+    font-size: 18px;
+    line-height: 170%;}
+
+/* banner section */
+.banner-area {
+    grid-template-columns: repeat( auto-fit, minmax(167px, 1fr));
+    padding: 20px;}
+.shadow {
+    top: 0%;}
+.shadowtext {
+    height: 124px;
+    padding: 14px;}
+.shadowtext h2 {
+    font-size: 18px;}
+.footer-address {
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: column;}
+.footer-address-button a {
+  margin:5px;}
+.footer .footer-menu {
+    grid-template-columns: repeat( auto-fit, minmax(280px, 1fr));}
+
+}
+
+
